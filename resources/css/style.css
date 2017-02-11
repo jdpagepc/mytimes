@@ -77,6 +77,14 @@ h2 {
 	width: 240px;
 }
 
+.column.small h3 {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 16px;
+	margin-bottom: 41px;
+}
+
 .cookie {
 	width: 100%;
 }
@@ -134,4 +142,15 @@ h2 {
   display: flex;
   justify-content: space-between;
   margin-top: 17px;
+}
+
+.bites {
+	font-size: 12px;
+	background-color: WhiteSmoke;
+	font-family: Verdana;
+	color: DimGray;
+	margin: 0;
+	border-bottom: 1px solid black;
+	padding: 11px 16px;
+	display: block;
 }
