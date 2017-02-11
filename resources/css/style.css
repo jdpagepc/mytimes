@@ -81,9 +81,9 @@ h2 {
 	width: 100%;
 }
 
-div {
+/* div {
 	border: 1px solid black;
-}
+} */
 
 .image {
 	height: 300px;
@@ -93,6 +93,11 @@ div {
 	font-weight: bold;
 	font-size: 30px;
 	color: white;
+	display: flex;
+}
+
+.image p {
+	margin-top: 0;
 }
 
 #image1 {
@@ -123,4 +128,10 @@ div {
 
 .column.large p {
 	height: 205px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
 }
