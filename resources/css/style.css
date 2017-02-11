@@ -73,10 +73,11 @@ div {
 
 #image1 {
 	display: flex;
+	width: 100%;
 	background-image: url(../images/img-story-main.png);
 	font-family: Georgia;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 40px;
 	color: white;
 }
 
@@ -108,4 +109,10 @@ div {
 	font-size: 30px;
 	color: white;
 
+}
+
+.chapter {
+	font-family: Georgia;
+	font-size: 17px;
+	color: black;
 }
